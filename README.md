@@ -70,7 +70,8 @@ Getting Started
 Clone the repository or download the source code.
 
 Create a configuration file named config.json in the same directory as the script. The file should have the following structure:
-'''
+
+'''JSON
 {
   "instagram_business_account_id": "YOUR_BUSINESS_ACCOUNT_ID",
   "access_token": "YOUR_ACCESS_TOKEN"
