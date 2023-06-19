@@ -10,17 +10,17 @@
 
 usernames — Required. Public usernames.
 x — Images only. An optional float that indicates percentage distance from left edge of the published media image. Value must be within 0.0–1.0 range.
-y — Images only. An optional float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range.   | NO  | [{
+y — Images only. An optional float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range.   | NO  | 
       username:'kevinhart4real',
       x: 0.5,
       y: 0.8
-    },
-    {
+    
+    
       username:'therock',
       x: 0.3,
       y: 0.2
-    }
-  ]   |
+    
+     |
 | location_id    | The ID of a Page associated with a location that you want to tag the image or video with.
 
 
