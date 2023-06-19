@@ -56,7 +56,7 @@ python script.py
 The script will initiate the content publishing process on Instagram based on the provided parameters.
 
 
-`---`
+`------------------------------------------------------------------`
 
 
 
