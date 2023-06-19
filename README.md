@@ -59,17 +59,13 @@
 
 This code allows for the automation of publishing content on Instagram using the Instagram Graph API.
 
-## Prerequisites
+## Dependencies
 
 - Python 3.x
-
-- requests
-
-- time
-
-- json
-
-- urlib.parse
+- requests: A Python library for making HTTP requests.
+- time: A Python module for time-related operations.
+- json: A Python module for working with JSON data.
+- urllib.parse: A Python module for parsing URLs.
 
 
 ## Getting Started
