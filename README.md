@@ -11,7 +11,7 @@ This code allows for the automation of publishing content on Instagram using the
 - urllib.parse: A Python module for parsing URLs.
 
 
-## Getting Started
+## Getting Started now Mohamad is comming
 Clone the repository or download the source code.
 
 Create a configuration file named config.json in the same directory as the script. The file should have the following structure:
