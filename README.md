@@ -65,8 +65,14 @@ This code allows for the automation of publishing content on Instagram using the
 
 - requests
 
+- time
 
-Getting Started
+- json
+
+- urlib.parse
+
+
+## Getting Started
 Clone the repository or download the source code.
 
 Create a configuration file named config.json in the same directory as the script. The file should have the following structure:
