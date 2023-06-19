@@ -73,15 +73,11 @@ Create a configuration file named config.json in the same directory as the scrip
 
 
 ```
-import requests
-import time
-
-# {
+{
   "instagram_business_account_id": "YOUR_BUSINESS_ACCOUNT_ID",
   "access_token": "YOUR_ACCESS_TOKEN"
 }
-# ...
-# ...
+
 ```
 
 '''JSON
