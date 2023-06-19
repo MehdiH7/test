@@ -25,3 +25,15 @@
 | KEY  | DESCRIPTION  | MANDATORY  | EXAMPLE  |
 |-----------|-----------|-----------|-----------|
 | video_url     | Required for videos and reels. Applies only to videos and reels. Path to the video. We cURL the video using the passed-in URL, so it must be on a public server.    | YES    | https://www.sos-tapis.com/wp-content/uploads/2023/06/y2mate.com-Rare-Moments-in-Football-shorts_1080p.mp4     |
+
+
+# THE KEYS FOR VIDEO
+
+| KEY  | DESCRIPTION  | MANDATORY  | EXAMPLE  |
+|-----------|-----------|-----------|-----------|
+| video_url     | Required for videos and reels. Applies only to videos and reels. Path to the video. We cURL the video using the passed-in URL, so it must be on a public server.    | YES    | https://www.sos-tapis.com/wp-content/uploads/2023/06/y2mate.com-Rare-Moments-in-Football-shorts_1080p.mp4    |
+| is_coursel_item     | Applies only to images and video. Set to true. Indicates image or video appears in a carousel.   | NO    | TRUE    |
+| caption     | A caption for the image, video, or carousel. Can include hashtags (example: #crazywildebeest) and usernames of Instagram users (example: @natgeo). @Mentioned Instagram users receive a notification when the container is published. Maximum 2200 characters, 30 hashtags, and 20 @ tags. Not supported on images or videos in carousels.    | NO   | this the caption for the Image Module    |
+| location_id     | The ID of a Page associated with a location that you want to tag the image or video with. Use the Pages Search API to search for Pages whose names match a search string, then parse the results to identify any Pages that have been created for a physical location. Include the location field in your query and verify that the Page you want to use has location data.   | NO   | 1   |
+| user_tags     | 	Required for user tagging. Applies to images and videos. An array of public usernames and x/y coordinates for any public Instagram users who you want to tag in the image. Each object should have the following information: usernames — Required. Public usernames.   | NO   | username: messi  |
+| product_tags    | Required for product tagging. Applies only to images and videos. An array of objects specifying which product tags to tag the image or video with (maximum of 5; tags and product IDs must be unique).   | NO   | Data product_id:'3231775643511089'  |
