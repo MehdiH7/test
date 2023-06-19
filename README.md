@@ -70,12 +70,12 @@ Getting Started
 Clone the repository or download the source code.
 
 Create a configuration file named config.json in the same directory as the script. The file should have the following structure:
-
+'
 {
   "instagram_business_account_id": "YOUR_BUSINESS_ACCOUNT_ID",
   "access_token": "YOUR_ACCESS_TOKEN"
 }
-
+'
 
 Replace YOUR_BUSINESS_ACCOUNT_ID with your Instagram Business Account ID and YOUR_ACCESS_TOKEN with your access token. Make sure to obtain the necessary permissions and generate the access token from the Facebook Developer Dashboard.
 
