@@ -2,7 +2,7 @@
 
 This code allows for the automation of publishing content on Instagram using the Instagram Graph API.
 
-## Dependencies
+## Dependencies is the first thing to modify
 
 - Python 3.x
 - requests: A Python library for making HTTP requests.
