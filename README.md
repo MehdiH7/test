@@ -80,17 +80,12 @@ Create a configuration file named config.json in the same directory as the scrip
 
 ```
 
-'''JSON
-{
-  "instagram_business_account_id": "YOUR_BUSINESS_ACCOUNT_ID",
-  "access_token": "YOUR_ACCESS_TOKEN"
-}
-'''
 
 Replace YOUR_BUSINESS_ACCOUNT_ID with your Instagram Business Account ID and YOUR_ACCESS_TOKEN with your access token. Make sure to obtain the necessary permissions and generate the access token from the Facebook Developer Dashboard.
 
 Create a parameters file named params.json in the same directory. This file should contain the parameters for each media type you want to publish. An example structure for publishing images:
 
+```
 {
   "media_types": {
     "IMAGES": {
@@ -104,7 +99,9 @@ Create a parameters file named params.json in the same directory. This file shou
   }
 }
 
-Adjust the parameters accordingly for your specific use case. Add additional media types as needed.
+```
+
+Adjust the parameters accordingly for your specific use case.
 
 Run the script by executing the following command in the terminal or command prompt:
 
